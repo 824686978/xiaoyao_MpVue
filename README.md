@@ -1,4 +1,4 @@
-# mpvue_xiaoyao
+# xiaoyao_mpvue
 
 > A Mpvue project
 
@@ -6,14 +6,22 @@
 
 ``` bash
 # 初始化项目
-vue init mpvue/mpvue-quickstart myproject
-cd myproject
+
+cd xiaoyao_mpvue
 
 # 安装依赖
-yarn
+npm install
 
 # 开发时构建
 npm dev
+
+# 启动服务器
+cd xiaoyao_server
+npm start
+
+#启动项目
+cd xiaoyao_mpvue
+npm run dev
 
 # 打包构建
 npm build
